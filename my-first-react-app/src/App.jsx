@@ -1,41 +1,23 @@
-import Header from "./components/Header.jsx";
-import Footer from "./components/Footer.jsx";
-import Food from "./components/Food.jsx";
-import AboutMeCard from "./components/AboutMeCard.jsx";
-import InterestCard from "./components/InterestCard.jsx";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Profile from "./pages/Profile";
 
 function App() {
   return (
-    <div>
-      <Header />
+    <BrowserRouter>
+      <nav>
+        <Link to="/">Home</Link> |{" "}
+        <Link to="/about">About</Link> |{" "}
+        <Link to="/profile">Profile</Link>
+      </nav>
 
-      <main>
-        <h2>Welcome to my website!</h2>
-
-        <Food />
-        <Food />
-
-        <AboutMeCard 
-          name = "Yunni Nguyen"
-  bio = "I like Cat."
-  funfact = "Fun fact: I can cooking"
-  emoji = "😄"
-        />
-
-         <AboutMeCard 
-          name = "Lulya"
-  bio = "I like traveling"
-  funfact = "i actually like cooking . i do"
-  emoji = "😄"
-        />
-       
-
-        <AboutMeCard />
-        <InterestCard />
-      </main>
-
-      <Footer />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
