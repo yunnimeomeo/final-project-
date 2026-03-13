@@ -6,7 +6,7 @@ function Profile() {
     <>
           <Title myTitle="Profile" mySubtitle="this is me" />
 
-    <h1>Home Page</h1>;
+    
     </>
     )
 }
