@@ -18,20 +18,31 @@ function App() {
         <AboutMeCard 
           name = "Yunni Nguyen"
   bio = "I like Cat."
-  funfact = "Fun fact: I can cooking"
+  funfact = "I can cooking"
   emoji = "😄"
         />
 
          <AboutMeCard 
           name = "Lulya"
   bio = "I like traveling"
-  funfact = "i actually like cooking . i do"
+  funfact = "I actually like cooking. i do"
   emoji = "😄"
         />
-       
-
-        <AboutMeCard />
-        <InterestCard />
+       <AboutMeCard 
+          name = "Lelena Ammanuel"
+  bio = "I like dancing."
+  funfact = "I was born in Ethiopia"
+  emoji = "🤪"
+        />
+  <AboutMeCard 
+          name = "Graciela Martinez"
+  bio = "I like roadtrips."
+  funfact = "A bit fear of heights"
+  emoji = "💀"
+        />
+      
+      
+        {/* <InterestCard /> */}
       </main>
 
       <Footer />
