@@ -1,8 +1,11 @@
 import AboutMeCard from "../components/AboutMeCard"
+import Title from "../components/Title"
 
 function About() {
     return (
     <div>
+
+      <Title myTitle="About us" mySubtitle="this is us" />
          <h1>About Page</h1>
           <AboutMeCard 
           name = "Yunni Nguyen"
