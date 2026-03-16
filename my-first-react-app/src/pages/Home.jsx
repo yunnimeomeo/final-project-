@@ -6,7 +6,7 @@ function Home() {
     <>
           <Title myTitle="Home" mySubtitle="welcome" />
 
-    <h1>Home Page</h1>;
+    <h1>Home Page</h1> 
     </>
     )
 }
