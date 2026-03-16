@@ -20,6 +20,19 @@ function About() {
   funfact = "i actually like cooking . i do"
   emoji = "😄"
         />
+<AboutMeCard 
+          name = "Lelena"
+  bio = "I like swimming"
+  funfact = "I was born in Ethiopia"
+  emoji = "😄"
+        />
+        <AboutMeCard 
+          name = "Gracie"
+  bio = "I like eating"
+  funfact = "I have mild fear of heights!!!"
+  emoji = "😄"
+        />
+
        </div>)
 
          ;
