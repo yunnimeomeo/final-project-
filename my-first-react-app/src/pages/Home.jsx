@@ -5,7 +5,7 @@ function Home() {
     return (
     <>
           <Title myTitle="Home" mySubtitle="welcome" />
-          
+          <h1>h</h1>
   
     </>
     )
