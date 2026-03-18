@@ -5,12 +5,11 @@ function About() {
     return (
     <div>
 
-      <Title myTitle="About us" mySubtitle="This is us" />
-         <h1>About us Page</h1>
+      <Title myTitle="About us" mySubtitle="Who we are" />
           <AboutMeCard 
           name = "Yunni Nguyen"
   bio = "I like Cat."
-  funfact = "Fun fact: I can cooking"
+  funfact = "I can cooking"
   emoji = "😄"
         />
 
@@ -24,13 +23,13 @@ function About() {
           name = "Lelena"
   bio = "I like swimming"
   funfact = "I was born in Ethiopia"
-  emoji = "😄"
+  emoji = "🤪"
         />
         <AboutMeCard 
           name = "Gracie"
   bio = "I like eating"
   funfact = "I have mild fear of heights!!!"
-  emoji = "😄"
+  emoji = "💀"
         />
 
        </div>)
