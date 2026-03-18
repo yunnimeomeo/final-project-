@@ -5,7 +5,7 @@ function About() {
     return (
     <div>
 
-      <Title myTitle="About us" mySubtitle="This is us" />
+      <Title myTitle="About us" mySubtitle="Who we are" />
           <AboutMeCard 
           name = "Yunni Nguyen"
   bio = "I like Cat."
