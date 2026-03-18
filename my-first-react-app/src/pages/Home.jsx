@@ -1,4 +1,5 @@
 import Title from "../components/Title"
+import Foodcard from "../components/Foodcard"
 
 
 function Home() {
@@ -8,6 +9,7 @@ function Home() {
           <h1></h1>
 
     <h1>Home Page</h1> 
+    
     </>
     )
 }
