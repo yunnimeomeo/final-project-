@@ -5,8 +5,8 @@ function About() {
     return (
     <div>
 
-      <Title myTitle="About us" mySubtitle="this is us" />
-         <h1>About Page</h1>
+      <Title myTitle="About us" mySubtitle="This is us" />
+         <h1>About us Page</h1>
           <AboutMeCard 
           name = "Yunni Nguyen"
   bio = "I like Cat."
@@ -20,6 +20,19 @@ function About() {
   funfact = "i actually like cooking . i do"
   emoji = "😄"
         />
+<AboutMeCard 
+          name = "Lelena"
+  bio = "I like swimming"
+  funfact = "I was born in Ethiopia"
+  emoji = "😄"
+        />
+        <AboutMeCard 
+          name = "Gracie"
+  bio = "I like eating"
+  funfact = "I have mild fear of heights!!!"
+  emoji = "😄"
+        />
+
        </div>)
 
          ;
