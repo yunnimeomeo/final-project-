@@ -1,6 +1,7 @@
-import Title from "../components/Title";
 import AboutMeCard from "../components/AboutMeCard";
-import Foodcard from "../components/Foodcard";
+import Title from "../components/Title"
+import myPicture from "../assets/072ab0a15af730dae78a9a5a0c88c5ae.jpg"
+import FoodBanner from "../components/FoodBanner"
 
 
 function Home(emoji,) {
@@ -40,6 +41,17 @@ function Home(emoji,) {
         </div>
 
     );
+    <>
+          <Title myTitle="Gogett3r" mySubtitle="welcome!" />
+          <h1></h1>
+
+    
+
+        <FoodBanner picture={myPicture} />
+
+    </>
+    )
+
 }
 
 export default Home;

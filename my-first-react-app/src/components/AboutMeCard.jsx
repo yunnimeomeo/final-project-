@@ -24,3 +24,4 @@ function AboutMeCard({emoji,name,bio,funfact}) {
 }
 
 export default AboutMeCard;
+

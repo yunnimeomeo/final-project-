@@ -6,6 +6,7 @@ import RecipeOne from "./pages/RecipeOne";
 
 function App() {
   return (
+    
     <BrowserRouter>
       <nav>
         <Link to="/">Home</Link> |{" "}
