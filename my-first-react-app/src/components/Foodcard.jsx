@@ -1,27 +1,41 @@
-import AboutMeCard from "./AboutMeCard";
+import AboutMeCard from "../components/AboutMeCard"
+import Title from "../components/Title"
 
-function Foodcard (emoji,name,funfact,bio) {
+function About() {
     return (
-    <div className="bg-green-300 border border-gray-200 rounded-2xl shadow-md p-6 w-80 text-center hover:shadow-xl hover:-translate-y-1 transition-all duration-200">
-      
-      <span className="text-6xl">{emoji}</span>
+    <div>
 
-      <h3 className="bg-green-600 text-2xl font-bold mt-4 text-gray-800">
-        About Me 
-      </h3>
+      <Title myTitle="About us" mySubtitle="This is us" />
+         <h1>About us Page</h1>
+          <AboutMeCard 
+          name = "Yunni Nguyen"
+  bio = "I like Cat."
+  funfact = "Fun fact: I can cooking"
+  emoji = "😄"
+        />
 
-      <p className="mt-2 text-2xl">
-        <strong>Name:</strong> {name}
-      </p>
+         <AboutMeCard 
+          name = "Lulya"
+  bio = "I like traveling"
+  funfact = "i actually like cooking . i do"
+  emoji = "😄"
+        />
+<AboutMeCard 
+          name = "Lelena"
+  bio = "I like swimming"
+  funfact = "I was born in Ethiopia"
+  emoji = "😄"
+        />
+        <AboutMeCard 
+          name = "Gracie"
+  bio = "I like eating"
+  funfact = "I have mild fear of heights!!!"
+  emoji = "😄"
+        />
 
-      <p className="text-green-600 mt-2">{bio}</p>
+       </div>)
 
-      <p className="mt-2">
-        <strong>Fun Fact:</strong> {funfact}
-      </p>
-
-    </div>
-  );
+         ;
 }
 
-export default AboutMeCard; 
+export default About;
