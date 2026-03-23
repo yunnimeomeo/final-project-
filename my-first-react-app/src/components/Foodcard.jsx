@@ -1,14 +1,11 @@
-import Title from "../components/Title"
 import AboutMeCard from "../components/AboutMeCard"
+import Title from "../components/Title"
 
-
-function Home() {
+function About() {
     return (
-    <>
-          <Title myTitle="Gogett3r" mySubtitle="welcome!" />
-          <h1></h1>
-       <div>
-        <Title myTitle="About us" mySubtitle="This is us" />
+    <div>
+
+      <Title myTitle="About us" mySubtitle="This is us" />
          <h1>About us Page</h1>
           <AboutMeCard 
           name = "Yunni Nguyen"
@@ -39,9 +36,6 @@ function Home() {
        </div>)
 
          ;
-
-    </>
-    )
 }
 
-export default Home;
+export default About;
