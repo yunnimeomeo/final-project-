@@ -1,6 +1,6 @@
 import AboutMeCard from "../components/AboutMeCard";
 import Title from "../components/Title"
-import myPicture from "../assets/072ab0a15af730dae78a9a5a0c88c5ae.jpg"
+import myPicture from "../assets/pasta.png"
 import FoodBanner from "../components/FoodBanner"
 
 
