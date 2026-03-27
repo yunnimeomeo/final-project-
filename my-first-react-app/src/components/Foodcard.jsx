@@ -1,41 +1,27 @@
-import AboutMeCard from "../components/AboutMeCard"
-import Title from "../components/Title"
 
-function About() {
+
+function Foodcard({recipeName,time}) {
     return (
-    <div>
+     
+        <div className="m-2 p-6 bg-green-100 border rounded-lg shadow-md w-64 inline-block">
+            <h1 className="text-2xl text-center font-bold">today's featured recipe</h1>
+            <img src="" alt="" />
+            <h1 className="text-center">{recipeName}</h1>
+            <hr />
+            <p>{time} minutes</p>
+            <p>5 ingredients</p>
+            <p>4-6 servings</p>
 
-      <Title myTitle="About us" mySubtitle="This is us" />
-         <h1>About us Page</h1>
-          <AboutMeCard 
-          name = "Yunni Nguyen"
-  bio = "I like Cat."
-  funfact = "Fun fact: I can cooking"
-  emoji = "😄"
-        />
+            <h6>no better way to celebrate...</h6>
 
-         <AboutMeCard 
-          name = "Lulya"
-  bio = "I like traveling"
-  funfact = "i actually like cooking . i do"
-  emoji = "😄"
-        />
-<AboutMeCard 
-          name = "Lelena"
-  bio = "I like swimming"
-  funfact = "I was born in Ethiopia"
-  emoji = "😄"
-        />
-        <AboutMeCard 
-          name = "Gracie"
-  bio = "I like eating"
-  funfact = "I have mild fear of heights!!!"
-  emoji = "😄"
-        />
+            <button></button>
 
-       </div>)
+        </div>
 
+
+
+    )
          ;
 }
 
-export default About;
+export default Foodcard;
