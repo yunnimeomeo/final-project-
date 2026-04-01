@@ -1,10 +1,52 @@
-function (Home) {
+import React from 'react';
+
+function MyButton() {
+const handleClick = () => {
+console.log('Button was clicked!');
+};
+
+return (
+<button
+onClick={handleClick}
+className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded cursor-pointer"
+>
+Click Me
+</button>
+);
+}
+
+import React from 'react';
+
+function MyLink() {
   return (
-    <div className="m-2 p-6 bg-green-100 border rounded-lg shadow-md w-64 inline-block">
-            <h1 className="text-2xl text-center font-bold">SideBar</h1>
-            <img src="" alt="" />
-            <h1 className="text-center">{profile}</h1>
-            <hr />
-    </div>
+    <a
+      href="https://react.dev/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-600 hover:text-blue-800 underline cursor-pointer"
+    >
+      Visit
+
+React Docs
+
+</a>
+);
+}
+
+
+import React from 'react';
+
+function ClickableDiv() {
+const handleDivClick = () => {
+console.log('Div was clicked!');
+};
+
+return (
+<div
+onClick={handleDivClick}
+className="p-4 bg-gray-100 hover:bg-gray-200 cursor-pointer rounded shadow"
+>
+Clickable Card
+</div>
 );
 }

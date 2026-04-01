@@ -5,7 +5,7 @@ function Foodcard({recipeName,time}) {
      
         <div className="m-2 p-6 bg-green-100 border rounded-lg shadow-md w-64 inline-block">
             <h1 className="text-2xl text-center font-bold">today's featured recipe</h1>
-            <img src="one.jpg" alt="" />
+            <img src=" " alt="" />
             <h1 className="text-center">{recipeName}</h1>
             <hr />
             <p>{time} minutes</p>
