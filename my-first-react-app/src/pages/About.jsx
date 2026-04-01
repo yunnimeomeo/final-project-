@@ -4,7 +4,9 @@ import Title from "../components/Title"
 function About() {
     return (
     <div>
-      <Title myTitle="About us" mySubtitle="Who we are" />
+
+      <Title myTitle="About us" mySubtitle="This is us" />
+         <h1>About us page</h1>
           <AboutMeCard 
           name = "Yunni Nguyen"
   bio = "I like Cat."

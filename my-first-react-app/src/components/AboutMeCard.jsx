@@ -9,4 +9,5 @@ function AboutMeCard({ name, bio, funfact, emoji }) {
   )
 }
 
-export default AboutMeCard
+export default AboutMeCard;
+
