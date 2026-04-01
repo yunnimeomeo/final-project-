@@ -9,29 +9,29 @@ function Home(emoji,) {
 
             <div className="grid grid-cols-5 gap-4">
                  <Foodcard 
-                recipeName="strawberry waffles" time="30"/>
+                recipeName="strawberry waffles" time="30" servings="10"/>
                 <Foodcard 
-                recipeName="strawberry banana smoothie" time="10"/>
+                recipeName="strawberry banana smoothie" time="10" servings="10"/>
                 <Foodcard 
-                recipeName="strawberry spaghetti" time="40"/>
+                recipeName="strawberry spaghetti" time="40" servings="10"/>
                  <Foodcard 
-                recipeName="strawberry banana smoothie" time="10"/>
+                recipeName="strawberry banana smoothie" time="10" servings="10"/>
                 <Foodcard 
-                recipeName="strawberry spaghetti" time="40"/>
+                recipeName="strawberry spaghetti" time="40" servings="10"/>
             
             </div>
 
             <div className="grid grid-cols-5 gap-4">
                  <Foodcard 
-                 recipeName="strawberry apple" time="90"/>
+                 recipeName="strawberry apple" time="90" servings="10"/>
                 <Foodcard 
-                 recipeName="strawberry donuts" time="50"/>
+                 recipeName="strawberry donuts" time="50" servings="10"/>
                 <Foodcard 
-                recipeName="strawberry surprise" time="40"/>
+                recipeName="strawberry surprise" time="40" servings="10"/>
                  <Foodcard 
-                recipeName="strawberry banana smoothie" time="10"/>
+                recipeName="strawberry banana smoothie" time="10" servings="10"/>
                 <Foodcard 
-                recipeName="strawberry spaghetti" time="40"/>
+                recipeName="strawberry spaghetti" time="40" servings="10"/>
             
             </div>
            
