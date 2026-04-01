@@ -1,47 +1,45 @@
-import Title from "../components/Title"
-import AboutMeCard from "../components/AboutMeCard"
+import Title from "../components/Title";
+import AboutMeCard from "../components/AboutMeCard";
+import Foodcard from "../components/Foodcard";
 
 
-function Home() {
+function Home(emoji,) {
     return (
-    <>
-          <Title myTitle="Gogett3r" mySubtitle="welcome!" />
-          <h1></h1>
-       <div>
-        <Title myTitle="About us" mySubtitle="This is us" />
-         <h1>About us Page</h1>
-          <AboutMeCard 
-          name = "Yunni Nguyen"
-  bio = "I like Cat."
-  funfact = "Fun fact: I can cooking"
-  emoji = "😄"
-        />
+        <div>
 
-         <AboutMeCard 
-          name = "Lulya"
-  bio = "I like traveling"
-  funfact = "i actually like cooking . i do"
-  emoji = "😄"
-        />
-<AboutMeCard 
-          name = "Lelena"
-  bio = "I like swimming"
-  funfact = "I was born in Ethiopia"
-  emoji = "😄"
-        />
-        <AboutMeCard 
-          name = "Gracie"
-  bio = "I like eating"
-  funfact = "I have mild fear of heights!!!"
-  emoji = "😄"
-        />
+            <div className="grid grid-cols-5 gap-4">
+                 <Foodcard 
+                recipeName="strawberry waffles" time="30"/>
+                <Foodcard 
+                recipeName="strawberry banana smoothie" time="10"/>
+                <Foodcard 
+                recipeName="strawberry spaghetti" time="40"/>
+                 <Foodcard 
+                recipeName="strawberry banana smoothie" time="10"/>
+                <Foodcard 
+                recipeName="strawberry spaghetti" time="40"/>
+            
+            </div>
 
-       </div>)
+            <div className="grid grid-cols-5 gap-4">
+                 <Foodcard 
+                 recipeName="strawberry apple" time="90"/>
+                <Foodcard 
+                 recipeName="strawberry donuts" time="50"/>
+                <Foodcard 
+                recipeName="strawberry surprise" time="40"/>
+                 <Foodcard 
+                recipeName="strawberry banana smoothie" time="10"/>
+                <Foodcard 
+                recipeName="strawberry spaghetti" time="40"/>
+            
+            </div>
+           
+       
 
-         ;
+        </div>
 
-    </>
-    )
+    );
 }
 
 export default Home;
