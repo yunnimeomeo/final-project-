@@ -9,8 +9,8 @@ function Foodcard({recipeName,time}) {
             <h1 className="text-center">{recipeName}</h1>
             <hr />
             <p>{time} minutes</p>
-            <p>5 ingredients</p>
-            <p>{servings} servings</p>
+            <p>10 ingredients</p>
+            <p>5 servings</p>
 
             <h6>no better way to celebrate...</h6>
 
