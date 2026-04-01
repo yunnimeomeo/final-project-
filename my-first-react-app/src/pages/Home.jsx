@@ -1,12 +1,20 @@
-import Title from "../components/Title";
 import AboutMeCard from "../components/AboutMeCard";
-import Foodcard from "../components/Foodcard";
+import Title from "../components/Title"
+import pastaPicture from "../assets/pasta.png"
+import chickPicture from "../assets/chicken-broccolii.png"
+import FoodBanner from "../components/FoodBanner"
+import Foodcard from "../components/Foodcard"
 
 
-function Home(emoji,) {
+
+function Home() {
     return (
         <div>
+ <Title myTitle="Gogett3r" mySubtitle="welcome!" />
+  <FoodBanner picture={pastaPicture} />
 
+
+        <FoodBanner picture={chickPicture} />
             <div className="grid grid-cols-5 gap-4">
                  <Foodcard 
                 recipeName="strawberry waffles" time="30" servings="10"/>
@@ -40,6 +48,8 @@ function Home(emoji,) {
         </div>
 
     );
+ 
+
 }
 
 export default Home;
