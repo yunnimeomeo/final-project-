@@ -14,4 +14,5 @@ function Card({ name, title, blurb, picture }) {
   );
 }
 
+
 export default Card;

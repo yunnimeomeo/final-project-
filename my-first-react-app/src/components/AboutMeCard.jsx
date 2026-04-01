@@ -1,26 +1,12 @@
-function AboutMeCard({emoji,name,bio,funfact}) {
-
+function AboutMeCard({ name, bio, funfact, emoji }) {
   return (
-    <div className="bg-green-300 border border-gray-200 rounded-2xl shadow-md p-6 w-80 text-center hover:shadow-xl hover:-translate-y-1 transition-all duration-200">
-      
-      <span className="text-6xl">{emoji}</span>
-
-      <h3 className="bg-green-600 text-2xl font-bold mt-4 text-gray-800">
-        About Me 
-      </h3>
-
-      <p className="mt-2 text-2xl">
-        <strong>Name:</strong> {name}
-      </p>
-
-      <p className="text-green-600 mt-2">{bio}</p>
-
-      <p className="mt-2">
-        <strong>Fun Fact:</strong> {funfact}
-      </p>
-
+    <div className="bg-white rounded-2xl shadow-lg p-6 w-72 text-center">
+      <div className="text-5xl mb-4">{emoji}</div>
+      <h2 className="text-2xl font-bold text-slate-900 mb-2">{name}</h2>
+      <p className="text-slate-600 mb-2">{bio}</p>
+      <p className="text-pink-500 italic">{funfact}</p>
     </div>
-  );
+  )
 }
 
-export default AboutMeCard;
+export default AboutMeCard
