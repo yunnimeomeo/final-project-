@@ -1,10 +1,12 @@
 import AboutMeCard from "../components/AboutMeCard";
 import Title from "../components/Title"
-import myPicture from "../assets/pasta.png"
+import pastaPicture from "../assets/pasta.png"
+import chickPicture from "../assets/chicken-broccolii.png"
 import FoodBanner from "../components/FoodBanner"
 
 
-function Home(emoji,) {
+
+function Home() {
     return (
         <div>
 
@@ -45,9 +47,10 @@ function Home(emoji,) {
           <Title myTitle="Gogett3r" mySubtitle="welcome!" />
           <h1></h1>
 
-    
+            <FoodBanner picture={pastaPicture} />
 
-        <FoodBanner picture={myPicture} />
+
+        <FoodBanner picture={chickPicture} />
 
     </>
     )
