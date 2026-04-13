@@ -1,4 +1,4 @@
-import Foodinfo from "../components/foodinfo"; 
+import Foodinfo from "../components/Foodinfo"; 
 
 function RecipeOne() {
   return (
