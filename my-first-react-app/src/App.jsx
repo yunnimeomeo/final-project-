@@ -7,7 +7,7 @@ import RecipeOne from "./pages/RecipeOne";
 function App() {
   return (
     
-    <BrowserRouter basename="/my-first-react-app/">
+    <BrowserRouter basename="/final-project-/">
       <nav>
         <Link to="/">Home</Link> |{" "}
         <Link to="/about">About</Link> |{" "}
