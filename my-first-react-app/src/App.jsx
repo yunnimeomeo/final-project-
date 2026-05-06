@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Profile from "./pages/Profile";
 import RecipeOne from "./pages/RecipeOne";
+import SearchBar from"./pages/SearchBar";
 
 function App() {
   return (
