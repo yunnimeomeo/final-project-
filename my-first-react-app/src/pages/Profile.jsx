@@ -50,7 +50,8 @@ function Profile() {
 
   return (
     <div className="min-h-screen bg-[#f8f5ef] px-6 py-8">
-      <Title myTitle="Profile" mySubtitle="Manage your account" />
+      {/* Đã cập nhật Title theo yêu cầu */}
+      <Title myTitle="Profile" mySubtitle="This is me" />
 
       <div className="max-w-6xl mx-auto mt-8 grid gap-6">
         <div className="bg-white rounded-3xl shadow-md p-6 flex flex-col md:flex-row gap-6 items-center">

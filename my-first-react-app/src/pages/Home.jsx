@@ -41,7 +41,7 @@ function Home() {
                 <Foodcard 
                 recipeName="strawberry spaghetti" time="40"/>
             
-            </div>
+            </div> 
            
        
 
