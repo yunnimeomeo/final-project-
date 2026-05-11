@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 function MyButton() {
 const handleClick = () => {
@@ -15,7 +15,6 @@ Click Me
 );
 }
 
-import React from 'react';
 
 function MyLink() {
   return (
@@ -34,7 +33,7 @@ React Docs
 }
 
 
-import React from 'react';
+
 
 function ClickableDiv() {
 const handleDivClick = () => {
