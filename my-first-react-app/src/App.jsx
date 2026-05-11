@@ -1,25 +1,37 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
+
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Profile from "./pages/Profile";
 import RecipeOne from "./pages/RecipeOne";
+import RecipesAll from "./pages/RecipesAll";
+
+function Menu() {
+  const navigate = useNavigate();
+
+  return (
+    <select onChange={(e) => navigate(e.target.value)}>
+      <option value="/">Pages</option>
+      <option value="/">Home</option>
+      <option value="/about">About</option>
+      <option value="/profile">Profile</option>
+      <option value="/recipeone">Recipe One</option>
+      <option value="/recipesall">Recipes All</option>
+    </select>
+  );
+}
 
 function App() {
   return (
-    
     <BrowserRouter>
-      <nav>
-        <Link to="/">Home</Link> |{" "}
-        <Link to="/about">About</Link> |{" "}
-        <Link to="/profile">Profile</Link> |{" "}
-        <Link to="/recipeOne">RecipeOne</Link>
-      </nav>
+      <Menu />
 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/profile" element={<Profile />} />
-        <Route path="/recipeOne" element={<RecipeOne />}/>
+        <Route path="/recipeone" element={<RecipeOne />} />
+        <Route path="/recipesall" element={<RecipesAll />} />
       </Routes>
     </BrowserRouter>
   );
