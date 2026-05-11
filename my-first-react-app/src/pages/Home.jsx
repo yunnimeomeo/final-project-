@@ -17,29 +17,29 @@ function Home() {
         <FoodBanner picture={chickPicture} />
             <div className="grid grid-cols-5 gap-4">
                  <Foodcard 
-                recipeName="strawberry waffles" time="30" />
+                recipeName="broccoli Beef" time="30" />
                 <Foodcard 
-                recipeName="strawberry banana smoothie" time="10"/>
+                recipeName=" banana smoothie" time="10"/>
                 <Foodcard 
-                recipeName="strawberry spaghetti" time="40" />
+                recipeName="spaghetti" time="40" />
                  <Foodcard 
-                recipeName="strawberry banana smoothie" time="10" />
+                recipeName="chicken w/ a side of broccoli" time="10" />
                 <Foodcard 
-                recipeName="strawberry spaghetti" time="40" />
+                recipeName="Steak Fries" time="40" />
             
             </div>
 
             <div className="grid grid-cols-5 gap-4">
                  <Foodcard 
-                 recipeName="strawberry apple" time="90" />
+                 recipeName="burrito" time="90" />
                 <Foodcard 
-                 recipeName="strawberry donuts" time="50" />
+                 recipeName="salmon and rice" time="50" />
                 <Foodcard 
-                recipeName="strawberry surprise" time="40" />
+                recipeName="bean dip" time="40" />
                  <Foodcard 
-                recipeName="strawberry banana smoothie" time="10" />
+                recipeName="Gomen and Injera" time="10" />
                 <Foodcard 
-                recipeName="strawberry spaghetti" time="40" />
+                recipeName="Elote loco" time="40" />
             
             </div> 
            
