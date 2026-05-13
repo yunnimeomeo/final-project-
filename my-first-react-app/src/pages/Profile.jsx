@@ -4,8 +4,8 @@ import meomeo from "../assets/meomeo.png";
 
 function Profile() {
   const [profileImage, setProfileImage] = useState(meomeo);
-  const [name, setName] = useState("Yunni Nguyen");
-  const [email, setEmail] = useState("yunni.nguyen225@gmail.com");
+  const [name, setName] = useState("oths");
+  const [email, setEmail] = useState("otech@ousd.org");
   const [language, setLanguage] = useState("English");
   const [notifications, setNotifications] = useState(true);
 
