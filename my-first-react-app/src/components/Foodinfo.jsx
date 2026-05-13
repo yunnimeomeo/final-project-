@@ -1,4 +1,6 @@
+import { useState } from "react";
 function Foodinfo({ name, servings, preptime, cooktime, ingredients, instructions }) {
+  const [favorite, setFavorite] = useState(false);
   return (
     <div className="bg-white border border-gray-300 rounded-xl shadow-md hover:shadow-xl hover:bg-blue-50 transition-all duration-200 p-6 max-w-2xl mx-auto mt-6">
       
@@ -17,28 +19,53 @@ function Foodinfo({ name, servings, preptime, cooktime, ingredients, instruction
      
         <div className>
           <h2 className="text-xl font-semibold mb-2">Ingredients</h2>
-              <ul className="list-disc ml-5 text-gray-700">
+              {/* <ul className="list-disc ml-5 text-gray-700"> */}
                 {ingredients.map((item, index) => (
-                  <li key={index}>{item}</li>
-                ))}
-              </ul>
-        </div>
-        
-        <div  className> 
-           <h2 className="text-xl font-semibold mb-2">Instructions</h2>
-           <ol className="list-decimal ml-5 text-gray-700">
-                {instructions.map((item, index) => (
-                  <li key={index}>{item}</li>
-                ))}
-              </ol>
-             
-        
-        </div>
-             
+                 <li key={index}>{item}</li>
+                 ))}
+                 {/* </ol> */}
+               </div> 
+            </div>
+
+            <div className="text-center mt-6">
+              <button
+                onClick={() => setFavorite(!favorite)}
+
+className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
+                className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
+                className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
+
+className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
+
+className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
+
+className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
+
+className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
+
+className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
+
+className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
+
+className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
+
+className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
+
+
+>
+
+{favorite ? "Added to Favorites" : "Add Recipe to Favorites"}
+
+</button>
+
 </div>
-      </div>
-    </div>
-  );
+
+</div>
+
+</div>
+
+);
+
 }
 
 export default Foodinfo;

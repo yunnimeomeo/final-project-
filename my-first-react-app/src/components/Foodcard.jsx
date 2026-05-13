@@ -12,7 +12,7 @@ function Foodcard({recipeName,time}) {
             <p>5 ingredients</p>
             <p>4-6 servings</p>
 
-            <h6>no better way to celebrate...</h6>
+            <h6>Enjoy!!</h6>
 
             <button></button>
 
